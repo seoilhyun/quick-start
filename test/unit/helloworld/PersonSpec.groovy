@@ -20,7 +20,7 @@ class PersonSpec extends Specification {
     void "get first person"() {
 		def p = Person.get(1)
 		assert 1 == p.id
-    }
+	}
 	
 	void "update person"() {
 		def p = Person.get(1)
